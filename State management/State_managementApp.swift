@@ -11,7 +11,7 @@ import SwiftUI
 struct State_managementApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            ContentView(cart: CartViewModel())
         }
     }
 }
